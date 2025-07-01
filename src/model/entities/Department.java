@@ -37,7 +37,7 @@ public class Department implements Serializable{
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
-	}
+	} 
 
 	@Override
 	public boolean equals(Object obj) {
